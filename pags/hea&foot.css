@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+header > nav {
+    background-color: lightskyblue;
+
+}
+
+
+.imglink {
+    display: inline-block;
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
