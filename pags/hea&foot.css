@@ -3,16 +3,67 @@
     border: 0px;
 }
 
-header > nav {
-    background-color: lightskyblue;
+body {
+    background-color: rgb(245, 245, 226);
+}
 
+header {
+    height: 120px;
+    background-image: url(/photos/pexels-vishnu-r-nair-1105666.png);
+    background-position: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.342);
+}
+
+header > div  {
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    padding: 0px 5vw 0px 30px;
+}
+
+nav {
+    position: relative;
+    top: 19px;
+    word-spacing: 3vw;
+    display: inline-block;
+}
+
+a {
+    font-weight: 400;
+    position: relative;
+    top: 13px;
+    left: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+}
+
+a:hover {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.726);
+    text-shadow: 2px 2px 5px white;
+    color: chocolate;
+    transition-duration: 0.7s;
 }
 
 
-.imglink {
-    display: inline-block;
-    background-color: aqua;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+footer {
+    background-color: #804326;
+    border-radius: 10px 10px  0px 0px;
+}
+
+
+footer > div  {
+    padding: 5px;
+    background-color: #d59941;
+    border-radius: 10px 10px  0px 0px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.342);
+}
+
+ul {
+
 }
